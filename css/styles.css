@@ -106,6 +106,7 @@ body {
   color: var(--text-color);
 }
 /* ------------------------Doing------------------------ */
+
 .doing-title {
   font-weight: bold;
   font-size: 36px;
@@ -115,6 +116,7 @@ body {
   color: var(--brand-color);
 }
 /* -------------------Team-------------------------------- */
+
 .team {
   background-color: #f5f4fa;
 }
@@ -142,7 +144,13 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+/* ---------------------Portfolio button---------------- */
+
+.nav-item {
+}
+
 /* -----------------------Footer------------------------ */
+
 .footer {
   background-color: #2f303a;
 }
