@@ -1,3 +1,8 @@
+:root {
+  --text-color: #757575;
+  --brand-color: #212121;
+  --accent-color: #2196f3;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -18,4 +23,21 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+/* ------------------Header----------------------*/
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.accent-top {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
 }
