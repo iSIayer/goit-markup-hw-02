@@ -41,3 +41,22 @@ body {
   letter-spacing: 0.03em;
   color: #000000;
 }
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+}
+.header-nav .link:focus,
+.header-nav .link:hover {
+  color: var(--accent-color);
+}
+.header-nav .link.current {
+  color: var(--accent-color);
+}
+
+.header-connect .link:hover,
+.header-connect .link:focus {
+  color: var(--accent-color);
+}
