@@ -89,6 +89,9 @@ body {
 .hero-button:focus {
   background-color: #188ce8;
 }
+.btn-container {
+  text-align: center;
+}
 /* -------------------Services--------------------------- */
 .services-title {
   font-weight: bold;
@@ -146,9 +149,43 @@ body {
 }
 /* ---------------------Portfolio button---------------- */
 
-.nav-item {
+.nav-btn {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+  cursor: pointer;
+}
+.nav-item .active {
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 
+.nav-btn:hover,
+.nav-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+/* ------------Portfolio items ------------------------------*/
+
+.pf-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--brand-color);
+}
+
+.pf-pre-title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
 /* -----------------------Footer------------------------ */
 
 .footer {
