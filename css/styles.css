@@ -11,6 +11,7 @@ body {
 }
 .link {
   text-decoration: none;
+  color: var(--text-color);
 }
 .visually-hidden {
   position: absolute;
@@ -59,4 +60,104 @@ body {
 .header-connect .link:hover,
 .header-connect .link:focus {
   color: var(--accent-color);
+}
+
+/* ------------------------Hero------------------------- */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero-button {
+  background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
+/* -------------------Services--------------------------- */
+.services-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-color);
+}
+.services-pre-title {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* ------------------------Doing------------------------ */
+.doing-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+}
+/* -------------------Team-------------------------------- */
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+}
+.team-pre-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+}
+.team-post {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* -----------------------Footer------------------------ */
+.footer {
+  background-color: #2f303a;
+}
+
+.accent-foot {
+  color: #ffffff;
+}
+.address {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.address-city {
+  color: #ffffff;
 }
