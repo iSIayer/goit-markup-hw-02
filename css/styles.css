@@ -206,3 +206,8 @@ body {
 .address-city {
   color: #ffffff;
 }
+.connect .link:focus, 
+.connect .link:hover {
+  color: #b6b6b6;
+
+}
